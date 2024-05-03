@@ -17,12 +17,30 @@ Na aplicação que deseja registrar, realize os passos indicados abaixo.
 
     Configure a propriedade spring.application.name caso ela não exista.
 
-1. Adicione a dependência abaixo.
-    
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-        </dependency>
+1. Adicione a dependência abaixo. O formato considera que o Spring Cloud não existo projeto. Caso exista, basta adicionar a dependência.
+
+       <properties>
+		   <spring-cloud.version>2023.0.1</spring-cloud.version>
+	   </properties>
+
+       <dependencies>
+           <dependency>
+               <groupId>org.springframework.cloud</groupId>
+               <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+           </dependency>
+       </dependencies>
+
+       <dependencyManagement>
+    		<dependencies>
+    			<dependency>
+    				<groupId>org.springframework.cloud</groupId>
+    				<artifactId>spring-cloud-dependencies</artifactId>
+    				<version>${spring-cloud.version}</version>
+    				<type>pom</type>
+    				<scope>import</scope>
+    			</dependency>
+    		</dependencies>
+	    </dependencyManagement>
    
 3. Na classe main, adicione a anotação _@EnableDiscoveryClient_.
 4. No arquivo application.properties copie e cole as duas propriedades abaixo. 
