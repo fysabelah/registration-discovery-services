@@ -1,16 +1,6 @@
-# Sistema de Gerenciamento de Pedidos - Desafio Tech Challenge - Módulo 4
-
-## Registro e descoberta de serviços
+# Registro e descoberta de serviços
 
 Repositório responsável pelo registro e identificação dos serviços.
-
-Há 4 serviços:
-
-* [Cliente](https://github.com/AydanAmorim/costumers-microservice)
-* [Pedido](https://github.com/fysabelah/ordering-microservice)
-* Produto
-* [Logística](https://github.com/erickmatheusribeiro/tracking-microservice)
-* [Gateway](https://github.com/fysabelah/gateway-order-management?tab=readme-ov-file)
 
 ### Como configurar
 Na aplicação que deseja registrar, realize os passos indicados abaixo.
