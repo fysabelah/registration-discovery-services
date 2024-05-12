@@ -11,4 +11,4 @@ services:
       - server-discovery-network
 networks:
   server-discovery-network:
-    name: order-management-network
+    name: management-network
