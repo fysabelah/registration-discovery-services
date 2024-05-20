@@ -8,7 +8,7 @@ Há 4 serviços:
 
 * [Cliente](https://github.com/AydanAmorim/costumers-microservice)
 * [Pedido](https://github.com/fysabelah/ordering-microservice)
-* Produto
+* [Produto](https://github.com/DFaccio/products-microservice)
 * [Logística](https://github.com/erickmatheusribeiro/tracking-microservice)
 
 ### Como configurar
