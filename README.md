@@ -7,7 +7,7 @@ Na aplicação que deseja registrar, realize os passos indicados abaixo.
 
     Configure a propriedade spring.application.name caso ela não exista.
 
-1. Adicione a dependência abaixo. O formato considera que o Spring Cloud não existo projeto. Caso exista, basta adicionar a dependência.
+1. Adicione a dependência abaixo. O formato considera que o Spring Cloud não existe no projeto. Caso exista, basta adicionar a dependência.
 
        <properties>
 		   <spring-cloud.version>2023.0.1</spring-cloud.version>
